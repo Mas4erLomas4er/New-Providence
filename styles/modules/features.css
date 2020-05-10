@@ -1,0 +1,34 @@
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px;
+}
+
+.features-block {
+    width: 30%;
+}
+
+.features-block:first-child {
+    margin-right: 7%;
+}
+
+.features-block img,
+.features-title {
+    margin-bottom: 35px;
+}
+
+.features-title {
+    font-size: 26px;
+    font-weight: 300;
+    color: #26272d;
+}
+
+.features-block p:last-child {
+     margin-top: 20px;
+ }
+
+.features-text {
+    font-size: 18px;
+    color: #8c8f94;
+    line-height: 1.44;
+}

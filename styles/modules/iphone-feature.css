@@ -1,0 +1,81 @@
+.iphone-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #26272d;
+    padding: 60px 10% 60px 0;
+}
+
+.iphone-feature-info {
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px);
+}
+
+.iphone-feature img {
+    display: block;
+    width: 50%;
+    margin-right: 7%;
+}
+
+.iphone-feature-title {
+    font-family: "Varela Round", sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+    line-height: 1.24;
+}
+
+.iphone-feature-text {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #8c8f94;
+    margin-bottom: 20px;
+}
+
+.iphone-feature-btn {
+    padding: 12px 25px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    border-radius: 21px;
+    margin-right: 20px;
+    font-size: 16px;
+    display: inline-block;
+    /*align-items: center;*/
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.iphone-feature-btn.blue img {
+    margin-left: 20px;
+    margin-right: 0;
+    width: 12px;
+    display: inline-block;
+}
+
+.iphone-feature-btn.blue {
+    background-color: #267df4;
+    border: none;
+    color: #fff;
+}
+
+.iphone-feature-btn.blue:hover {
+    background-color: #1c5df4;
+}
+
+.iphone-feature-btn.white:hover {
+    background-color: rgba(116, 116, 116, 0.1);
+}
+
+.iphone-feature-btn.white {
+    background-color: #fff;
+    border: 1px solid rgba(38, 39, 45, 0.11);
+    color: #26272d;
+    font-weight: bold;
+}
+
+

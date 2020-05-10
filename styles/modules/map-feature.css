@@ -1,0 +1,49 @@
+.map-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #26272d;
+    padding: 60px 0 60px 10%;
+}
+
+.map {
+    display: block;
+    width: 50%;
+    margin-left: 7%;
+}
+
+.map-feature-title {
+    font-family: "Varela Round", sans-serif;
+    font-size: 42px;
+    margin-bottom: 50px;
+    line-height: 1.24;
+}
+
+.map-feature-text {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #8c8f94;
+    margin-bottom: 20px;
+}
+
+.partners {
+    color: #26272d;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 35px 0 25px;
+}
+
+.partner {
+    display: inline-block;
+    width: 20%;
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+.partner img {
+    display: block;
+    width: 100%;
+}
+

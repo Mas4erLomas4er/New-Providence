@@ -1,0 +1,19 @@
+@import "modules/header.css";
+@import "modules/features.css";
+@import "modules/iphone-feature.css";
+@import "modules/map-feature.css";
+@import "modules/preloader.css";
+@import "reset.css";
+
+.wrapper {
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin-bottom: 500px;
+}
+
+body.active {
+    overflow: hidden;
+}
