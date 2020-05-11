@@ -41,11 +41,11 @@ window.onload = function () {
 		this.classList.toggle( "active" );
 		document.querySelector( ".menu" ).classList.toggle( "active" );
 	};
-	document.querySelector( ".watch-video-btn" ).onclick = function () {
-		document.querySelector( ".phone" ).classList.toggle( "active" );
-		document.querySelector( ".phone" ).setAttribute( "src", "images/white.png" );
-		document.querySelector( "body" ).classList.toggle( "active" );
-	};
+	// document.querySelector( ".watch-video-btn" ).onclick = function () {
+	// 	document.querySelector( ".phone" ).classList.toggle( "active" );
+	// 	document.querySelector( ".phone" ).setAttribute( "src", "images/white.png" );
+	// 	document.querySelector( "body" ).classList.toggle( "active" );
+	// };
 	if ( window.pageYOffset > 0 )
 		document.querySelector( ".top-header" ).classList.add( "fixed" );
 	window.onscroll = function () {
