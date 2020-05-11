@@ -249,7 +249,6 @@
     -ms-transition: 1.5s;
     -o-transition: 1.5s;
     transition: 1.5s;
-    z-index: 1;
 }
 
 .watch-video-btn {
