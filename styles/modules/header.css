@@ -31,13 +31,13 @@
     -ms-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
+    z-index: 5;
 }
 
 .top-header.fixed {
     background-color: #fff;
     -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
-    z-index: 5;
     padding: 15px 25px;
 }
 
@@ -53,7 +53,7 @@
     border: none;
     display: block;
     position: relative;
-    z-index: 10;
+    z-index: 100;
 }
 
 .menu-line:before,
@@ -133,7 +133,7 @@
     -ms-transition: .4s;
     -o-transition: .4s;
     transition: .4s;
-    z-index: 9;
+    z-index: 99;
 }
 
 .menu.active {
@@ -152,7 +152,7 @@
     -ms-transition: .6s background-color;
     -o-transition: .6s background-color;
     transition: .6s background-color;
-    z-index: 5;
+    z-index: 98;
 }
 
 .menu.active + .darker {

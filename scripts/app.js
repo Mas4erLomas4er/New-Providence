@@ -33,7 +33,8 @@ if ( !DEBUG ) {
 window.onload = function () {
 	$( $( document ).ready( function () {
 		$( "html" ).niceScroll( {
-			zindex : 1000
+			zindex : 1000,
+			horizrailenabled: false,
 		} );
 	} ) );
 
